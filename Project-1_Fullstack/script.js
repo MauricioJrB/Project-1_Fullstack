@@ -31,7 +31,7 @@ document.getElementById("btn-Buscar").addEventListener("click", async () => {
     citacaoLi.innerHTML = "";
 
     await validationInput(input);
-
+    console.log("Syntax error in line 127");
     const response = await fetch(url + input);
     const data = await response.json();
 
