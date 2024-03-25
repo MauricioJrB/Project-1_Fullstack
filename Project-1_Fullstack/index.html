@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>1° Projeto Fullstack</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Anime Facts API</h1>
+      <h2 class="subtitle">
+        Busque frases aleatórias de seu personagem de anime favorito!
+      </h2>
+      <input id="input" list="personagens" class="input" />
+      <datalist id="personagens">
+        <option value="Pain"></option>
+        <option value="Saitama"></option>
+        <option value="Sukuna"></option>
+        <option value="Orochimaru"></option>
+      </datalist>
+      <button id="btn-Buscar" class="button">Buscar</button>
+      <section class="list">
+        <ul id="ul" >
+          <li id="anime" class="anime"></li>
+          <li id="personagem" class="personagem"></li>
+          <li id="citacao" class="citacao"></li>
+        </ul>
+      </section>
+      <div id="res" class="res"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

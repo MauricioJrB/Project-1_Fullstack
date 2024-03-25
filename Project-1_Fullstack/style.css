@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  body {
+    background-color: rgb(39, 39, 59);
+    margin: 0;
+    padding: 0;
+    background-image: url("Super-Broly.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 40px;
+    color: rgb(14, 212, 67);
+    border-radius: 2px;
+    text-shadow: -1px -3px 0 #000000, 1px -3px 0 #000, -1px 3px 0 #000,
+      1px 1px 0 #000;
+  }
+  
+  .subtitle {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+    text-shadow: -1px -1px 0 #2bf810, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  .input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list {
+    margin: auto;
+    border-radius: 5%;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.393);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #19d64ca3;
+  }
+  
+  #ul {
+    list-style: none;
+  }
+  
+  .res {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin: auto;
+    border-radius: 5%;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.393);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #19d64ca3;
+  }
+  
+  @media (max-width: 1080px) {
+    .title {
+      font-size: 45px;
+    }
+    .list {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .list {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    .list {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .list {
+      font-size: 8px;
+    }
+  }
+  
